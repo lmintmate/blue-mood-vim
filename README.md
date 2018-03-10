@@ -1,13 +1,19 @@
-# Blue Mood for Gvim
+# Blue Mood for Gvim and terminal vim
 
-This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for Gvim.
-It is for the moment compatible only with it and not with the terminal version of Vim.
-Keep in mind that this port doesn't correspond 100% to the original emacs theme, due to the differences between vim's theming system and emacs's theming system.
+This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for both Gvim and terminal vim. Keep in mind that this port doesn't correspond 100% to the original emacs theme, due to the differences between vim's theming system and emacs's theming system.
 
-## Installation & Activation
+## Compatibility notice
+
+This colorscheme is more geared towards the gui, which means that terminal vim is supported only for vim versions 7.4.1799 and up, as from this version onwards, the option `set termguicolors` has been added, which allows for support of gui colors in terminals that have true color support. For more information on this topic, consult [this helpful section](https://github.com/mhinz/vim-galore#true-colors).
+
+## Installation
 
 Only manual for the moment.
-Place the theme file (blue-mood.vim) inside `~/.vim/colors`, creating it if it doesn't already exist.
+Place the theme file (blue-mood.vim) inside `~/.vim/colors`, creating the folder if it doesn't already exist.
+
+## Activation
+
+If you are on the gui, just set your colorscheme to blue-mood and you're good to go. If you are on the terminal, and provided that your version of vim is 7.4.1799 and above, first make sure your terminal emulator has true color support ([this gist](https://gist.github.com/XVilka/8346728) might be of help), and then put `set termguicolors` in your vimrc. Afterwards enable the colorscheme as normal.
 
 ### Credits
 
