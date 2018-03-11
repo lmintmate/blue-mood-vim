@@ -8,8 +8,9 @@ This colorscheme is more geared towards the gui, which means that terminal vim i
 
 ## Installation
 
-Only manual for the moment.
-Place the theme file (blue-mood.vim) inside `~/.vim/colors`, creating the folder if it doesn't already exist.
+### Manual
+
+Place the theme file (blue-mood.vim) inside `~/.vim/colors` (Unix) or `vimfiles/colors` (Windows), creating the folder if it doesn't already exist.
 
 ## Activation
 
