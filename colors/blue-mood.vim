@@ -67,7 +67,6 @@ exe 'hi Directory guifg='s:cyan
 exe 'hi Folded guifg='s:gray72' guibg='s:dodgerblue4 
 exe 'hi ModeMsg guifg='s:whitesmoke
 exe 'hi Question guifg='s:whitesmoke
-exe 'hi SpellBad guifg='s:red
 exe 'hi WildMenu guifg='s:red' guibg='s:yellow' gui=bold cterm=bold'
 
 exe 'hi Boolean guifg='s:cyan3' gui=bold cterm=bold'  
