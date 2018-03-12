@@ -68,29 +68,29 @@ exe 'hi Folded guifg='s:gray72' guibg='s:dodgerblue4
 exe 'hi ModeMsg guifg='s:whitesmoke
 exe 'hi Question guifg='s:whitesmoke
 exe 'hi SpellBad guifg='s:red
-exe 'hi WildMenu guifg='s:red' guibg='s:yellow' gui=bold'
+exe 'hi WildMenu guifg='s:red' guibg='s:yellow' gui=bold cterm=bold'
 
-exe 'hi Boolean guifg='s:cyan3' gui=bold'  
+exe 'hi Boolean guifg='s:cyan3' gui=bold cterm=bold'  
 exe 'hi Character guifg='s:cyan  
-exe 'hi Comment guifg='s:gray72' gui=bold' 
+exe 'hi Comment guifg='s:gray72' gui=bold cterm=bold' 
 exe 'hi Conditional guifg='s:gold  
 exe 'hi Constant guifg='s:cyan 
 exe 'hi Debug guifg='s:whitesmoke 
 exe 'hi Define guifg='s:gold 
 exe 'hi Delimiter guifg='s:whitesmoke 
-exe 'hi DiffAdd guifg=#f8f8f8 guibg=#46830c gui=bold'
+exe 'hi DiffAdd guifg=#f8f8f8 guibg=#46830c gui=bold cterm=bold'
 exe 'hi DiffDelete guifg=#ff0000'  
 exe 'hi DiffChange guifg='s:whitesmoke' guibg='s:cyan3 
-exe 'hi DiffText guifg='s:whitesmoke' guibg='s:wheat' gui=bold'
-exe 'hi ErrorMsg guifg='s:red' guibg='s:bg2' gui=bold'
+exe 'hi DiffText guifg='s:whitesmoke' guibg='s:wheat' gui=bold cterm=bold'
+exe 'hi ErrorMsg guifg='s:red' guibg='s:bg2' gui=bold cterm=bold'
 exe 'hi WarningMsg guifg='s:yellow' guibg='s:red 
 exe 'hi Exception guifg='s:gold
 exe 'hi Float guifg='s:cyan  
-exe 'hi Function guifg='s:func' gui=bold'  
-exe 'hi Identifier guifg='s:gold' gui=bold'
-exe 'hi Keyword guifg='s:gold'  gui=bold'
+exe 'hi Function guifg='s:func' gui=bold cterm=bold'  
+exe 'hi Identifier guifg='s:gold' gui=bold cterm=bold'
+exe 'hi Keyword guifg='s:gold'  gui=bold cterm=bold'
 exe 'hi Label guifg='s:cyan3
-exe 'hi Macro guifg='s:gold' gui=bold'
+exe 'hi Macro guifg='s:gold' gui=bold cterm=bold'
 exe 'hi NonText guifg='s:steelblue3' guibg='s:dodgerblue4 
 exe 'hi Number guifg='s:cyan  
 exe 'hi Operator guifg='s:gold  
@@ -100,15 +100,15 @@ exe 'hi Include guifg='s:gold
 exe 'hi Repeat guifg='s:gold  
 exe 'hi Special guifg='s:whitesmoke 
 exe 'hi SpecialChar guifg='s:whitesmoke 
-exe 'hi SpecialComment guifg='s:gray72' gui=bold'
+exe 'hi SpecialComment guifg='s:gray72' gui=bold cterm=bold'
 exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2 
 exe 'hi Statement guifg='s:gold  
 exe 'hi StorageClass guifg='s:type
 exe 'hi String guifg='s:tomato 
 exe 'hi Structure guifg='s:type 
 exe 'hi Tag guifg='s:gold  
-exe 'hi Title guifg='s:func'  gui=bold'
-exe 'hi Todo guifg='s:wheat'  guibg='s:dodgerblue4' gui=bold'
+exe 'hi Title guifg='s:func'  gui=bold cterm=bold'
+exe 'hi Todo guifg='s:wheat'  guibg='s:dodgerblue4' gui=bold cterm=bold'
 exe 'hi Type guifg='s:type 
 exe 'hi Typedef guifg='s:type
 exe 'hi Underlined   gui=underline'
@@ -119,9 +119,9 @@ exe 'hi rubyLocalVariableOrMethod guifg='s:cyan3
 exe 'hi rubyGlobalVariable guifg='s:cyan3
 exe 'hi rubyInstanceVariable guifg='s:cyan3
 exe 'hi rubyKeyword guifg='s:gold
-exe 'hi rubyKeywordAsMethod guifg='s:gold' gui=bold'
-exe 'hi rubyClassDeclaration guifg='s:gold' gui=bold'
-exe 'hi rubyClass guifg='s:gold' gui=bold'
+exe 'hi rubyKeywordAsMethod guifg='s:gold' gui=bold cterm=bold'
+exe 'hi rubyClassDeclaration guifg='s:gold' gui=bold cterm=bold'
+exe 'hi rubyClass guifg='s:gold' gui=bold cterm=bold'
 exe 'hi rubyNumber guifg='s:cyan
 
 " Python Highlighting
@@ -132,7 +132,7 @@ exe 'hi goBuiltins guifg='s:wheat
 
 " Javascript Highlighting
 exe 'hi jsBuiltins guifg='s:wheat
-exe 'hi jsFunction guifg='s:gold' gui=bold'
+exe 'hi jsFunction guifg='s:gold' gui=bold cterm=bold'
 exe 'hi jsGlobalObjects guifg='s:type
 exe 'hi jsAssignmentExps guifg='s:cyan3
 
