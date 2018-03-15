@@ -12,6 +12,18 @@ This colorscheme is more geared towards the gui, which means that terminal vim i
 
 Place the theme file (blue-mood.vim) inside `~/.vim/colors` (Unix) or `vimfiles/colors` (Windows), creating the folder if it doesn't already exist.
 
+### Package managers
+
+```vim
+" vim-plug
+Plug 'lmintmate/blue-mood-vim'
+" NeoBundle
+NeoBundle 'lmintmate/blue-mood-vim'
+" Vundle
+Plugin 'lmintmate/blue-mood-vim'
+```
+These instructions aren't tested, as I personally use the manual install, but should work.
+
 ## Activation
 
 If you are on the gui, just set your colorscheme to blue-mood and you're good to go. If you are on the terminal, and provided that your version of vim is 7.4.1799 and above, first make sure your terminal emulator has true color support ([this gist](https://gist.github.com/XVilka/8346728) might be of help), and then put `set termguicolors` in your vimrc. Afterwards enable the colorscheme as normal.
