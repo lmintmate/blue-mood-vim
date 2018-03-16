@@ -100,7 +100,7 @@ exe 'hi Repeat guifg='s:gold
 exe 'hi Special guifg='s:whitesmoke 
 exe 'hi SpecialChar guifg='s:whitesmoke 
 exe 'hi SpecialComment guifg='s:gray72' gui=bold cterm=bold'
-exe 'hi SpecialKey guifg='s:fg2' guibg='s:bg2 
+exe 'hi SpecialKey guifg='s:steelblue3' guibg='s:dodgerblue4 
 exe 'hi Statement guifg='s:gold  
 exe 'hi StorageClass guifg='s:type
 exe 'hi String guifg='s:tomato 
