@@ -86,7 +86,7 @@ exe 'hi DiffDelete guifg=#ff0000'
 exe 'hi DiffChange guifg='s:whitesmoke' guibg='s:cyan3 
 exe 'hi DiffText guifg='s:whitesmoke' guibg='s:wheat' gui=bold cterm=bold'
 exe 'hi ErrorMsg guifg='s:whitesmoke' guibg='s:red' gui=bold cterm=bold'
-exe 'hi WarningMsg guifg='s:yellow' guibg='s:red 
+exe 'hi WarningMsg guifg='s:gold' gui=bold cterm=bold' 
 exe 'hi Exception guifg='s:gold
 exe 'hi Float guifg='s:cyan  
 exe 'hi Function guifg='s:func' gui=bold cterm=bold'  
