@@ -54,8 +54,8 @@ exe 'hi LineNr guifg='s:gray72' guibg='s:dodgerblue4
 exe 'hi CursorLineNr guifg='s:gray72' guibg='s:dodgerblue4' gui=bold cterm=bold' 
 exe 'hi VertSplit guifg='s:dodgerblue4' guibg='s:gray72 
 exe 'hi MatchParen guifg='s:whitesmoke'  guibg='s:steelblue3
-exe 'hi StatusLine guifg='s:bfbfbf' guibg='s:black
-exe 'hi StatusLineNC guifg='s:darkgray' guibg='s:lightgray
+exe 'hi StatusLine guifg='s:black' guibg='s:bfbfbf' gui=NONE cterm=NONE'
+exe 'hi StatusLineNC guifg='s:lightgray' guibg='s:darkgray' gui=NONE cterm=NONE'
 exe 'hi Pmenu guifg='s:whitesmoke' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi PmenuSbar  guibg='s:bg2 
