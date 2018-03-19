@@ -65,6 +65,7 @@ exe 'hi Visual guifg='s:yellow' guibg='s:red
 exe 'hi Search   guifg='s:red' guibg='s:yellow
 exe 'hi Directory guifg='s:cyan  
 exe 'hi Folded guifg='s:gray72' guibg='s:dodgerblue4 
+exe 'hi FoldColumn guifg='s:gray72' guibg='s:dodgerblue4 
 exe 'hi ModeMsg guifg='s:whitesmoke
 exe 'hi MoreMsg guifg='s:whitesmoke
 exe 'hi Question guifg='s:whitesmoke
