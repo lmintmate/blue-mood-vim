@@ -73,6 +73,7 @@ exe 'hi WildMenu guifg='s:red' guibg='s:yellow' gui=bold cterm=bold'
 exe 'hi TabLine      guifg='s:bfbfbf' guibg='s:black' gui=reverse cterm=reverse'
 exe 'hi TabLineFill  guifg='s:bfbfbf' guibg='s:lightgray
 exe 'hi TabLineSel   guifg='s:black' guibg='s:bfbfbf' gui=bold'
+exe 'hi SignColumn guibg='s:dodgerblue4
 
 exe 'hi Boolean guifg='s:cyan3' gui=bold cterm=bold'  
 exe 'hi Character guifg='s:cyan  
