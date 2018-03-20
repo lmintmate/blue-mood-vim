@@ -16,7 +16,7 @@ Place the theme file (blue-mood.vim) inside `~/.vim/colors` (Unix) or `vimfiles/
 
 Plugin Manager  | Add to your `/.vimrc`
 --------------- | --------------------------------------------------
-Plug            | `Plug 'lmintmate/blue-mood-vim'`
+Vim Plug        | `Plug 'lmintmate/blue-mood-vim'`
 NeoBundle       | `NeoBundle 'lmintmate/blue-mood-vim'`
 Vundle          | `Plugin 'lmintmate/blue-mood-vim'`
 
