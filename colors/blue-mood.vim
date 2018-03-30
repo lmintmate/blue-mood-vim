@@ -44,6 +44,8 @@ let s:black="#000000"
 let s:bfbfbf="#bfbfbf"
 let s:darkgray="#4d4d4d"
 let s:lightgray="#cccccc"
+let s:blue4="#00008b"
+let s:goldenrod="#daa520"
 
 exe 'hi Normal guifg='s:whitesmoke' guibg='s:dodgerblue4 
 exe 'hi Cursor guifg='s:dodgerblue4' guibg='s:ffb90f 
@@ -56,6 +58,8 @@ exe 'hi VertSplit guifg='s:dodgerblue4' guibg='s:gray72
 exe 'hi MatchParen guifg='s:whitesmoke'  guibg='s:steelblue3
 exe 'hi StatusLine guifg='s:black' guibg='s:bfbfbf' gui=NONE cterm=NONE'
 exe 'hi StatusLineNC guifg='s:lightgray' guibg='s:darkgray' gui=NONE cterm=NONE'
+exe 'hi StatusLineTerm guifg='s:blue4' guibg='s:goldenrod' gui=NONE cterm=NONE'
+exe 'hi StatusLineTermNC guifg='s:gray72' guibg='s:bg2
 exe 'hi Pmenu guifg='s:whitesmoke' guibg='s:bg2
 exe 'hi PmenuSel  guibg='s:bg3
 exe 'hi PmenuSbar  guibg='s:bg2 
