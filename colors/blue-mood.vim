@@ -102,6 +102,7 @@ exe 'hi Keyword guifg='s:gold'  gui=bold cterm=bold'
 exe 'hi Label guifg='s:cyan3
 exe 'hi Macro guifg='s:gold' gui=bold cterm=bold'
 exe 'hi NonText guifg='s:steelblue3' guibg='s:dodgerblue4 
+exe 'hi EndOfBuffer guifg='s:steelblue3' guibg='s:dodgerblue4 
 exe 'hi Number guifg='s:cyan  
 exe 'hi Operator guifg='s:gold  
 exe 'hi PreProc guifg='s:gold
