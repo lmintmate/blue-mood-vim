@@ -1,6 +1,10 @@
 # Blue Mood for Gvim and terminal vim
 
-This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for both Gvim and terminal vim. Keep in mind that this port doesn't correspond 100% to the original emacs theme, due to the differences between vim's theming system and emacs's theming system.
+This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for both Gvim and terminal vim. 
+
+![Screenshot](screenshot.png)
+
+Keep in mind that this port doesn't correspond 100% to the original emacs theme, due to the differences between vim's theming system and emacs's theming system.
 
 ## Compatibility notice
 
