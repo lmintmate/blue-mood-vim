@@ -2,7 +2,7 @@
 
 This is a port of [emacs's Blue Mood theme](https://emacsthemes.com/themes/blue-mood-theme.html) for both Gvim and terminal vim.
 
-![Screenshot](screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/blue-mood/blue-mood-everything/master/screenshots/vim-screenshot.png)
 
 Keep in mind that this port doesn't correspond 100% to the original emacs theme, due to the differences between vim's theming system and emacs's theming system.
 
@@ -42,7 +42,7 @@ The initial structure for this file was largely based upon [ThemeCreator](https:
 
 With this colorscheme is also bundled a [Lightline](https://github.com/itchyny/lightline.vim) theme.
 
-![Lightline screenshot](lightline-screenshot.png)
+![Lightline screenshot](https://raw.githubusercontent.com/blue-mood/blue-mood-everything/master/screenshots/vim-lightline-screenshot.png)
 
 To use it, given you have installed Lightline with the plugin manager of your choice, put in your vimrc (note the underscore in the theme's name):
 ```vim
